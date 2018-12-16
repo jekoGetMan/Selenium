@@ -14,7 +14,7 @@ public class mainClass {
     WebDriver driver = new ChromeDriver(); // driver = new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-          driver.manage().window().maximize();
+//          driver.manage().window().maximize();
 //        driver.manage().window().maximize(); // driver.manage().window().setSize(new Dimension(900,500);
 //
 //        driver.get("https://www.seleniumhq.org");
@@ -48,5 +48,16 @@ public class mainClass {
 
 
 //        driver.quit();
+//        driver.get("https://en.wikipedia.org/wiki/Main_Page");
+//        driver.findElement(By.xpath("//*[@id=\"searchInput\"]")).sendKeys("Selenium Webdriver");
+//        driver.findElement(By.xpath("//*[@id=\"searchInput\"]")).click();
+//        System.out.println(driver.findElement(By.xpath("//*[@id=\"searchInput\"]")).getAttribute("value"));
+//        driver.findElement(By.xpath("//*[@id=\"searchInput\"]")).clear();
+          driver.get("http://market.yandex.ru");
+          driver.findElement(By.xpath("//span[text()=\"Бытовая техника\"]")).click();
+          driver.findElement(By.xpath("//a[text()=\"Стиральные машины\"]")).click();
+          driver.findElement(By.xpath("//span[text()='ATLANT']")).click();
+
+
     }
 }
