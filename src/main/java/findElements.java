@@ -23,7 +23,7 @@ public class findElements {
     @FindBy (xpath = "//*[@id='id_country']")
     private WebElement findCountry;
     @FindBy(xpath = "//*[@id='content_inner']/a")
-    private WebElement fillLcation;
+    private WebElement fillLocation;
     @FindBy (xpath = "//*[@id='id_first_name']")
     private WebElement nameLocation;
     @FindBy (xpath = "//*[@id='id_last_name']")
