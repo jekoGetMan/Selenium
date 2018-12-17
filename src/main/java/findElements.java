@@ -67,13 +67,13 @@ public class findElements {
         number.sendKeys(phone);
     }
 
-    public void form(String name,String surname,String address,String city,String index,String phone) {
+    public void form(String name,String lstName,String location,String cty,String i,String phoneNum) {
         Name(name);
-        lstName(surname);
-        fullAdress(address);
-        city(city);
-        index(index);
-        phoneNumber(phone);
+        lstName(lstName);
+        fullAdress(location);
+        city(cty);
+        index(i);
+        phoneNumber(phoneNum);
         Coutry();
     }
 }
