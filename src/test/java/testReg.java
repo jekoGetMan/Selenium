@@ -13,8 +13,8 @@ public class testReg {
     public static reg reg;
     public  static log log;
 
-    private static String email = "new@gmail.com";
-    private static String password = "12345678";
+    private static String email = "test@gmail.com";
+    private static String password = "qwerty";
 
     @BeforeClass
     public static void setUp(){
